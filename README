@@ -1,0 +1,7 @@
+#paquetes
+-- para control de mapas de ggogle
+dotnet add package Microsoft.Maui.Controls.Maps
+-- para mostrar mapas de google
+dotnet add package Microsoft.Maui.Maps
+-- para linux debug
+./maui-watch.sh

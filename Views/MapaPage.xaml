@@ -1,0 +1,11 @@
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps"
+    x:Class="MauiAppAndroid.Views.MapaPage">
+
+    <Grid>
+        <maps:Map x:Name="mapa"
+                  IsShowingUser="true" />
+    </Grid>
+</ContentPage>
